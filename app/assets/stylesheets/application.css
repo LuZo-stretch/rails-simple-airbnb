@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+ .map {
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.margin-top-negative {
+  margin-top: -75px;
+}
+
+.flat-show-card {
+  background: #F8F9FA;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 3px
+}
+
+.card-actions {
+  position: relative;
+  padding: 16px 24px;
+}
+
+#info {
+  text-decoration: none;
+}
+
+#edit {
+  text-decoration: none;
+  color: rgb(212, 197, 58);
+}
+
+#delete {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.854);
+}
